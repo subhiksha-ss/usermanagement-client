@@ -1,7 +1,7 @@
 body, html {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f4f6f8;
+  background-color: #e5d0f0;
 }
 
 .dashboard-container {
@@ -15,20 +15,20 @@ body, html {
 }
 
 .dashboard-header h2 {
-  color: #2f6f4e;
+  color: #6d0d91;
 }
 
 .dashboard-header button {
   padding: 8px 16px;
   border: none;
   border-radius: 8px;
-  background-color: #2f6f4e;
+  background-color: #d98bec;
   color: white;
   cursor: pointer;
 }
 
 .dashboard-header button:hover {
-  background-color: #24573d;
+  background-color: #d8b7e2;
 }
 
 .user-table {
@@ -44,7 +44,7 @@ body, html {
 }
 
 .user-table th {
-  background-color: #2f6f4e;
+  background-color: #c153c3;
   color: white;
 }
 
@@ -62,17 +62,17 @@ body, html {
 }
 
 .user-table button:first-child {
-  background-color: #e74c3c; 
+  background-color: #a443a5; 
   color: white;
 }
 
 .user-table button:nth-child(2) {
-  background-color: #3498db; 
+  background-color: #dda5fa; 
   color: white;
 }
 
 .user-table button:nth-child(3) {
-  background-color: #27ae60; 
+  background-color: #b54fca; 
   color: white;
 }
 
