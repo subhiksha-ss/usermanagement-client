@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import API from "../services/api";
 import "../styles/Login.css";
+import Image from "../assets/Image.png";
 
 export default function Login() {
   const [email, setEmail] = useState("");
@@ -24,6 +25,8 @@ export default function Login() {
   return (
     <div className="login-container">
       <div className="login-box">
+        <h1 className="title">Irises</h1>
+        <div className="login-form">
         <h2>Admin Login</h2>
         <form onSubmit={handleLogin}>
           <div>
@@ -48,6 +51,19 @@ export default function Login() {
         </form>
         {error && <p>{error}</p>}
       </div>
+      </div>
+
+       <div className="promo-wrapper">
+      <img src={Image} alt="Promo" className="promo-image" />
+      <div className="promo-overlay">
+        <h1>Welcome Back</h1>
+        <p>
+          Modern banking includes services like digital payments, online banking, loans,
+          credit facilities, and wealth management!
+        </p>
+      </div>
+    </div>
+
     </div>
   );
 }
