@@ -1,7 +1,7 @@
 body, html {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #e5d0f0;
+  background-color: #fbf8fc;
 }
 
 .dashboard-container {
@@ -37,15 +37,18 @@ body, html {
   margin-top: 40px;
 }
 
-.user-table th, .user-table td {
-  border: 1px solid #ddd;
+.user-table td {
+  border: 1px solid #430553;
   padding: 12px;
   text-align: center;
 }
 
 .user-table th {
-  background-color: #c153c3;
+  background-color: #e780e7;
   color: white;
+   border: 1px solid #430553;
+  padding: 12px;
+  text-align: center;
 }
 
 .user-table tr:nth-child(even) {
@@ -62,7 +65,7 @@ body, html {
 }
 
 .user-table button:first-child {
-  background-color: #a443a5; 
+  background-color: #f3c4f3; 
   color: white;
 }
 
